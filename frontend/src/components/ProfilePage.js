@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import profile from '../images/profile.png'
-import LeaderBoard from './LeaderBoard';
+
 import Feedback from './Feedback';
 
 const ProfilePage = () => {

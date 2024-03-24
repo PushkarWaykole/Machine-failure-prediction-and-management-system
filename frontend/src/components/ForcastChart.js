@@ -105,7 +105,7 @@ const ForcastChart = () => {
         label: 'RUL plot',
         data: rlabels,
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
-        borderColor: maxy<60? 'red':'green',
+        borderColor: rul<80? 'red':'green',
         borderWidth: 4,
         lineTension: 0.4, 
       },
